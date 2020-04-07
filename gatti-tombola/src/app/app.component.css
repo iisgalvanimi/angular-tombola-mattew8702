@@ -1,3 +1,4 @@
-.button {
-  background-color: #4CAF50;
+body {
+  background-image: linear-gradient(to top right, #FFFF00 0%, #FFE118 50%, #E26200 100%);
+  position: relative;
 }
