@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gatti-tombola"
+    }
+  },
+  "defaultProject": "gatti-tombola",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -17,12 +17,12 @@
 		<div class="card" style="width: 18rem;">
 			<div class="card-body">
 				<p>Sono AppComponent</p>
-				<form method="POST">
+				<form>
 					<div class="form-group">
 						<label for="exampleInputPassword1"><h3>Dimmi un numero</h3></label>
-						<input type="label" class="form-control" id="exampleInputPassword1" style="width: 200px;">
+						<label id="visuaNumero">Numero casuale</label>
   </div>
-						<button type="submit" class="btn btn-warning" >Estrai</button>
+						<button id="bottone" type="submit" class="btn btn-warning" (click)="generaNumero()">Estrai</button>
 				</form>
 			</div>
 		</div>
