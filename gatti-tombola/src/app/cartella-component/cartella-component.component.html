@@ -17,10 +17,9 @@
 				<form>
 					<div class="form-group">
             <p>Ultimo numero estratto</p>
-						<label for="exampleInputPassword1"><h3>3</h3></label>
+						<label><h3>{{ultimoNumero}}</h3></label>
             <p>Lista numeri estratti</p>
-						<!--Lista di tutti i numeri estratti (verso il basso)-->
-
+            <label *ngFor="let numero of numeriEstratti"><h3>{{numero}}</h3></label>
   </div>
 
 
