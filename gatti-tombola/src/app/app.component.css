@@ -1,7 +1,3 @@
-body {
-  background-image: linear-gradient(to top right, #FFFF00 0%, #FFE118 50%, #E26200 100%);
-  position: relative;
-}
 label#visuaNumero{
   border: 3px #696969 solid;
   background-color:#d3d3d3;
